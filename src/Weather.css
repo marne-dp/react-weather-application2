@@ -1,0 +1,28 @@
+.Weather {
+  background: #fffcf7;
+  border: 3.5px solid #ffa92891;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+}
+
+.Weather .weather-temperature .active:hover {
+  color: #383d41;
+  cursor: default;
+  text-decoration: none;
+}
+
+.Weather .weather-forecast {
+  text-align: center;
+}
+
+.Weather .forecast-temp-max {
+  color: #ffa828;
+  font-weight: bold;
+}
+
+.Weather .forecast-temp-min {
+  color: #42a5f5;
+  font-weight: lighter;
+  opacity: 0.9;
+}
